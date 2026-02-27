@@ -1,0 +1,15 @@
+colors = ["Red","Yellow", "White", "Black", "Purple", "Green"]
+print(colors)
+print("length of the list colors", len(colors))
+print("first elemint in the list ",colors[0])
+print("last elemint in the list ",colors[5])
+colors.append("teal")
+print(colors)
+colors.sort()
+colors.reverse()
+print(colors)
+print("Multiplication on list",colors*4)
+colors =colors[:4]
+print(colors)
+colors.pop(1)
+print(colors)
